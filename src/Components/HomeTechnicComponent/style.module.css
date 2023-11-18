@@ -1,0 +1,20 @@
+.imgElement{
+    width: 100%;
+}
+
+.pElement {
+    padding: 1rem 1rem;
+    background-color: white;
+    color: #2A2A2A;
+    font-family: Roboto;
+    font-size: 1.125rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.5rem;
+    margin-top: -0.25rem;
+}
+
+.flexDiv:hover{
+    margin-top: -0.8rem;
+    transition-duration: 0.8s;
+}

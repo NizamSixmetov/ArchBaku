@@ -1,0 +1,55 @@
+.bgDiv {
+    background-image: url('./HomeTechnic.svg');
+    background-repeat: no-repeat;
+    width: 100%;
+    background-size: cover;
+    padding: 1.5rem 0 4.5rem 0;
+}
+
+.h2Title {
+    padding-top: 5rem;
+}
+
+.h2Title h2 {
+    color: #FFF;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 2.25rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.h2Title .h2Bottom {
+    border-top: 3px solid #B08968;
+    width: 3.5rem;
+    margin: 0 auto;
+}
+
+.technicCardContainerDiv {
+    display: flex;
+    /* flex-wrap: wrap; */
+    justify-content: center;
+    gap: 0.8rem;
+    margin-top: 3.7em;
+}
+
+/* .technicCardContainer {
+    width: 25%
+} */
+
+.technicCardContainer:hover {
+    margin-top: -5px;
+    transition-duration: 0.5s;
+}
+
+.linkBtn {
+    /* margin-top: 5rem; */
+    text-align: center;
+}
+
+.linkBtn {
+    display: flex;
+    justify-content: center;
+    margin-top: 5rem;
+}

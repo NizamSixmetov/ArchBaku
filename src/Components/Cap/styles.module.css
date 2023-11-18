@@ -1,0 +1,85 @@
+:root {
+    --index: calc(1vh + 1vw);
+}
+
+.firstContainer {
+    background-image: url('CapImage.svg');
+    width: 100%;
+    /* height: 102vh; */
+    padding:0 0 39.5rem 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.firstContainer img {
+    width: 100%;
+}
+
+.capContainer {
+    position: absolute;
+    top: calc(var(--index) * 9);
+    left: calc(var(--index) * 5);
+    flex-direction: column;
+    align-items: center;
+}
+
+.capContainer h1 {
+    color: #FFF;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 4rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.capContainer p {
+    flex-shrink: 0;
+    color: #FFF;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 1.125rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.buttonMP{
+    margin-top: 5rem;
+}
+
+/* .capContainer button a {
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 1.125rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 1.25rem;
+} */
+
+/* .greenButton{
+    background-color: red;
+    color: white;
+    padding-top: 50px;
+} */
+
+/* /////////////////////////////////// */
+
+/* .capContainer button {
+    width: 11.1875rem;
+    height: 3.75rem;
+    flex-shrink: 0;
+    border-radius: 0.25rem;
+    border: 2px solid #FFF;
+    background: transparent;
+    margin-top: 3rem;
+} */
+
+/* .capContainer button:hover{
+    color: black;
+    background-color: #B08968;
+    transform: scale(1.08);
+    transition-duration: 0.5s;
+    border-color: #B08968;
+} */

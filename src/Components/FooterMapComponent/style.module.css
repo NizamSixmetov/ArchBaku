@@ -1,0 +1,18 @@
+.LinkA {
+    border: none !important;
+    color: #E8E8E8 !important;
+    font-family: Roboto;
+    font-size: 1.125rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 1rem;
+}
+
+.LinkA:hover {
+    transform: scaleX(1.05);
+    transition-duration: 0.5s;
+    color: #B08968 !important;
+    /* border-bottom: 1px solid #B08968 !important; */
+    width: fit-content;
+}

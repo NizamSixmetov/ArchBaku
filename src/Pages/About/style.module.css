@@ -1,0 +1,18 @@
+.positionDiv{
+
+}
+
+.bgDiv{
+    position: relative;
+    padding: 17rem 0;
+}
+
+.bgDiv img{
+    width: 100%;
+}
+
+.contentDiv{
+    position: absolute;
+    z-index: 1;
+    top: 50px;
+}

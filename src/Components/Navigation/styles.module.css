@@ -1,0 +1,25 @@
+.child {
+    align-items: center;
+    color: rgba(0, 0, 0, 0.719);
+    margin-top: 10px;
+}
+
+.child a {
+    color: rgb(0, 0, 0, 0.76);
+}
+
+.barsBtn {
+    border: none;
+    background-color: #fff;
+    cursor: pointer;
+}
+
+.hoverLink:hover {
+    transform: scale(0.96);
+    color: #B08968;
+    transition-duration: 0.5s;
+}
+
+.logo img:hover{
+    transform: scale(0.97);
+}

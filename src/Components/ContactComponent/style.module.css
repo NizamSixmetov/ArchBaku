@@ -1,0 +1,33 @@
+.flexDiv {
+    display: flex;
+    margin-top: 2.5rem;
+}
+
+.imageDiv {
+    border: 1px dotted #016B38;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    padding: 0.2rem 0.6rem;
+    border-radius: 4px;
+    margin-right: 1.2rem;
+}
+
+.h3Element {
+    color: #016B38;
+    font-family: Roboto;
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 2rem;
+}
+
+.pElement {
+    color: #707070;
+    font-family: Roboto;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}

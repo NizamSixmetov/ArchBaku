@@ -1,0 +1,85 @@
+.transparentButton {
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 1.125rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 1.25rem;
+    border: 1px solid white;
+    border-radius: 0.25rem;
+    background: transparent;
+    padding: 1rem 2.5em;
+    cursor: pointer;
+}
+
+.transparentButton:hover {
+    color: black;
+    transform: scale(1.1);
+    transition-duration: 0.5s;
+    border-color: #B08968;
+    background-color: #B08968;
+}
+
+.transparentButtonWhite {
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 1.125rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 1.25rem;
+    border: none;
+    border-radius: 0.25rem;
+    background: #B08968;
+    padding: 1rem 2.5em;
+    cursor: pointer;
+}
+
+.transparentButtonWhite:hover {
+    transform: scale(1.1);
+    transition-duration: 0.5s;
+    background: transparent;
+    color: white;
+}
+
+.brownButton {
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 1.125rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 1.25rem;
+    border: none;
+    border-radius: 0.25rem;
+    background: #B08968;
+    padding: 1rem 2.5em;
+    cursor: pointer;
+}
+
+.brownButton:hover {
+    transform: scale(1.1);
+    transition-duration: 0.5s;
+    background: transparent;
+    color: #016B38;
+}
+
+.greenButton {
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 20px;
+    border-radius: 4px;
+    border: 2px solid #FFF;
+    background: transparent;
+    padding: 1rem 2.5em;
+    margin-top: 3rem;
+    cursor: pointer;
+}
+
+.greenButton:hover {
+    background-color: #B08968;
+    border-color: #B08968;
+    transform: scale(1.1);
+    transition-duration: 0.5s;
+}

@@ -1,0 +1,66 @@
+.imageDiv {
+    position: relative;
+}
+
+
+
+
+.titleBg {
+    background-image: url('../../../public/Employees/backgroundImage/personBackground.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    width: 18.44rem;
+    padding: 0.4rem;
+    position: absolute;
+    /* bottom: 3.1rem; */
+    bottom: 0;
+}
+
+.titleText {
+    color: #FFF;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.5rem;
+}
+
+.firstP {
+    color: #FFF;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.5rem;
+}
+
+.twoP {
+    color: #FFF;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.5rem;
+}
+
+.spanText {
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 1.5rem;
+}
+
+.containerPerson {
+    background-color: #fff;
+    position: relative;
+}

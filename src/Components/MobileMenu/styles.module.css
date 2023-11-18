@@ -1,0 +1,15 @@
+.mobileMenu{
+    position: absolute;
+    z-index: 1;
+    background-color: #ddd;
+    margin-top: 1rem;
+    border-radius: 8px;
+    margin: 5px;
+}
+
+.mobile button{
+    padding: 5px;
+    border: none;
+    background: transparent;
+    cursor: pointer;
+}

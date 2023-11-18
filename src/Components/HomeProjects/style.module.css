@@ -1,0 +1,43 @@
+.mpDiv {
+    margin-top: 8rem;
+}
+
+.bgImage {
+    background-image: url('./HomeProjectsBg.svg');
+    background-repeat: no-repeat;
+    z-index: -1;
+    width: 100%;
+    padding: 0rem 0 6rem 0;
+    background-size: cover;
+}
+
+.title {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 4rem;
+}
+
+.title h2 {
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 2.25rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.title .titleBottomBorder {
+    border-top: 3px solid #B08968;
+    width: 3.5rem;
+    position: relative;
+    top: 0.2rem;
+}
+
+.projectCardContainer {
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 20px;
+    width: 100%;
+    justify-content: space-between;
+    padding-top: 5rem;
+}

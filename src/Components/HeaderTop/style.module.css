@@ -1,0 +1,28 @@
+.headerTop {
+    /* background-color: #016B38; */
+        background: linear-gradient(rgba(1, 107, 56, 0.9), rgba(1, 107, 56, 0.9)),
+            url("./header-top.svg");
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+    align-items: center;
+}
+
+.containerFlex {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+}
+
+.contactInfo {
+    height: 50px;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.social a {
+    color: white;
+}

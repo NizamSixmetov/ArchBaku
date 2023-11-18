@@ -1,0 +1,14 @@
+a .social{
+    border: 1px solid white;
+    border-radius: 0.25rem;
+    padding: 0.3rem;
+}
+
+a{
+    margin-left: 0.5rem;
+}
+
+a:hover{
+    transform: scale(1.1);
+
+}

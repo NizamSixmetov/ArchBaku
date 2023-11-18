@@ -1,0 +1,116 @@
+.bgDiv {
+    background-image: url(./HomeServicesBg.svg);
+    background-repeat: no-repeat;
+    padding: 4rem 0 5rem 0;
+    background-size: cover;
+}
+
+
+.h2Title {
+    color: #2B2B2B;
+    font-family: Roboto;
+    font-size: 2.25rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.h2BottomBorder {
+    border: 2px solid #B08968;
+    width: 3.5rem;
+}
+
+.dataContainerFlex {
+    display: flex;
+}
+
+.addFit {
+    background-color: white;
+    border: 1px solid #B0BDB7;
+}
+
+.addFit:hover {
+    transition-duration: 0.5s;
+    box-shadow: 0px 0px 3px 0.5px #016B38;
+}
+
+.dataContainer {
+    width: fit-content;
+    margin: 3rem 0 0 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.dataContainer .dataCard {
+    display: flex;
+    gap: 1rem;
+    margin: 0 0 2rem 0;
+}
+
+.dataContainer img {
+    width: fit-content;
+}
+
+.dataContainer .firstImg {
+    width: 100%;
+}
+
+.dataContainer .date {
+    margin: 0 0 0 1rem;
+    padding: 1rem 0 0.8rem 0.5rem;
+    border-bottom: 1px solid #D3DCE9;
+    width: fit-content;
+    width: 15rem;
+}
+
+.dataContainer .date img {
+    margin-right: 0.4rem;
+    width: fit-content;
+}
+
+.dataContainer .title {
+    color: #2B2B2B;
+    font-family: Roboto;
+    font-size: 1.125rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1.4375rem;
+    width: fit-content;
+    /* width: 90%; */
+    margin: 0 0 0 1rem;
+    padding: 1rem 0 0.8rem 0.5rem;
+}
+
+.dataContainer .description {
+    color: #5E5E5E;
+    font-family: Roboto;
+    font-size: 0.8125rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.25rem;
+    margin: 0 0 0 1rem;
+    padding: 1rem 0 0.8rem 0.5rem;
+    width: fit-content;
+    width: fit-content;
+    /* width: 82%; */
+}
+
+.dataContainer a {
+    color: #016B38;
+    font-family: Roboto;
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin: 0 0 0 1rem;
+    padding: 1rem 0 1rem 0.5rem;
+    width: fit-content;
+    cursor: pointer;
+}
+
+.dataContainer a:hover{
+    transform: scale(0.9);
+    transition-duration: 0.5s;
+}
