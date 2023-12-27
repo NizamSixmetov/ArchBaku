@@ -11,24 +11,24 @@ const Navigation = () => {
         <div>
             <div className="container">
                 <div className={`d-flex justify-content-between ${styles.child}`}>
-                    <div className={styles.NavigationImage}>
+                    <div className={styles.navigationImage}>
                         <Link to='/' className={`logo ${styles.logo}`}>
                             <img src="./LogoNavigation.svg" alt="Logo" />
                         </Link>
                     </div>
-                    <div className={`d-flex align-items-center ${styles.NavigationLink}`}>
+                    <div className={`d-flex align-items-center ${styles.navigationLink}`}>
                         {
                             MyRoutes.map(({ id, title, path }) => {
                                 return (
                                     <div key={id}>
-                                        <li className='d-none d-lg-flex me-2 align-items-center'>
+                                        <li className='d-none d-lg-flex me-1 align-items-center'>
                                             {
                                                 title && <NavLink
-                                                    className={` ${({ isActive }) => (isActive ? 'active' : 'inactive')}`}
+                                                    className={({ isActive }) => isActive ? `${styles.active}` : ''}
                                                     to={path}>
-                                                        <p className={`d-flex align-items-center ${styles.hoverLink}`}>
-                                                    <TbPointFilled /> {title}
-                                                        </p>
+                                                    <p className={`d-flex align-items-center ${styles.hoverLink}`}>
+                                                        <TbPointFilled /> {title}
+                                                    </p>
                                                 </NavLink>
                                             }
                                         </li>

@@ -6,19 +6,16 @@
 .bgDiv .firstImage {
     position: absolute;
     z-index: -1;
-    /* width: fit-content; */
 }
 
 .bgDiv .twoDiv {
     position: absolute;
     right: 0rem;
     z-index: -1;
-    /* width: fit-content; */
 }
 
 .titleDiv {
     text-align: center;
-    /* width: fit-content; */
 }
 
 .titleDiv h2 {

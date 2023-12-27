@@ -44,7 +44,7 @@ const ContactHome = () => {
                                 <input type="text" name="" id="" placeholder='Telefon nömrəsi' />
                             </div>
                             <div className={`${styles.textAreaDiv}`}>
-                                <textarea name="" id="" cols="50" rows="5" placeholder='Mesajınız'></textarea>
+                                <textarea name="" id="" cols="25" rows="5" placeholder='Mesajınız'></textarea>
                                 <Button
                                 buttonStyle={'brown'}
                                 link={'/about'}

@@ -30,6 +30,8 @@
 
 .flexDiv {
     display: flex;
+    justify-content: center;
+    flex-direction: row;
 }
 
 .rightDiv {
@@ -73,4 +75,43 @@
     background: #FAFAFA;
     padding: 1rem 1.8rem;
     margin-bottom: 0.5rem;
+}
+
+@media screen and (max-width: 992px) {
+    .flexDiv {
+        flex-direction: column;
+    }
+
+    .componentDiv {
+        border: none;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 100%;
+        gap: 1rem;
+        padding: 0px;
+    }
+
+    .rightDiv {
+        margin: 0px;
+    }
+
+}
+
+@media screen and (max-width: 768px) {
+    .componentDiv {
+        border: none;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 100%;
+        gap: 1rem;
+        padding: 0px;
+    }
+
+    .inpTextDiv{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
 }

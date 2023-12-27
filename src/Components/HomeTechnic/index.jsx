@@ -17,26 +17,31 @@ const HomeTechnic = () => {
             <div className={`${styles.h2Bottom}`}></div>
           </div>
           <div className={`${styles.technicCardContainerDiv}`}>
-            <HomeTechnicComponent
-              pElement={'Lorem ipsum dolor sit amet'}
-              imgElement={'../../../public/Technic.svg'}
-              link={'/servicesDetail'}
-            />
-            <HomeTechnicComponent
-              pElement={'Lorem ipsum dolor sit amet'}
-              imgElement={'../../../public/Technic.svg'}
-              link={'/servicesDetail'}
-            />
-            <HomeTechnicComponent
-              pElement={'Lorem ipsum dolor sit amet'}
-              imgElement={'../../../public/Technic.svg'}
-              link={'/servicesDetail'}
-            />
-            <HomeTechnicComponent
-              pElement={'Lorem ipsum dolor sit amet'}
-              imgElement={'../../../public/Technic.svg'}
-              link={'/servicesDetail'}
-            />
+            <div className={`${styles.childFlex}`}>
+              <HomeTechnicComponent
+                pElement={'Lorem ipsum dolor sit amet'}
+                imgElement={'../../../public/Technic.svg'}
+                link={'/servicesDetail'}
+              />
+              <HomeTechnicComponent
+                pElement={'Lorem ipsum dolor sit amet'}
+                imgElement={'../../../public/Technic.svg'}
+                link={'/servicesDetail'}
+              />
+            </div>
+            <div className={`${styles.childFlex}`}>
+              <HomeTechnicComponent
+                pElement={'Lorem ipsum dolor sit amet'}
+                imgElement={'../../../public/Technic.svg'}
+                link={'/servicesDetail'}
+              />
+              <HomeTechnicComponent
+                pElement={'Lorem ipsum dolor sit amet'}
+                imgElement={'../../../public/Technic.svg'}
+                link={'/servicesDetail'}
+              />
+
+            </div>
           </div>
         </div>
         <div className={`${styles.linkBtn}`}>

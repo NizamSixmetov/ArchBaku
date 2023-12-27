@@ -15,7 +15,13 @@ const HomeProjects = () => {
                             <h2>LAYİHƏLƏR</h2>
                             <div className={`${styles.titleBottomBorder}`}></div>
                         </div>
-                        <Button buttonStyle={'transparent'} text={'Hamısı'} link={'/projects'} icon={<BiChevronRight />} />
+                        <dir className={`${styles.buttonDiv}`}>
+                            <Button
+                                buttonStyle={'transparent'}
+                                text={'Hamısı'} link={'/projects'}
+                                icon={<BiChevronRight />}
+                            />
+                        </dir>
                     </div>
                     <div className={`${styles.projectCardContainer}`}>
                         <HomeProjectComponent

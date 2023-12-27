@@ -21,6 +21,7 @@ h2 {
 
 .h2Bottom {
     border-top: 2px solid #B08968;
+    border-radius: .5rem;
     width: 3.5rem;
 }
 
@@ -28,7 +29,7 @@ h2 {
     display: flex;
     flex-wrap: wrap;
     width: 100%;
-    gap: 1.2rem;
+    gap: .6rem;
     margin-top: 2rem;
     justify-content: center;
 }

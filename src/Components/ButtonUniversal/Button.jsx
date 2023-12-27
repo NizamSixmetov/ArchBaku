@@ -31,6 +31,3 @@ const Button = ({ text, buttonStyle, icon, link }) => {
 }
 
 export default Button;
-
-
-{/* <button className={universalClass}>{text}{icon}</button> */ }

@@ -28,23 +28,20 @@
 
 .technicCardContainerDiv {
     display: flex;
-    /* flex-wrap: wrap; */
+    flex-direction: row;
     justify-content: center;
     gap: 0.8rem;
     margin-top: 3.7em;
 }
 
-/* .technicCardContainer {
-    width: 25%
-} */
-
-.technicCardContainer:hover {
-    margin-top: -5px;
-    transition-duration: 0.5s;
+.childFlex {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    gap: .8rem;
 }
 
 .linkBtn {
-    /* margin-top: 5rem; */
     text-align: center;
 }
 
@@ -52,4 +49,16 @@
     display: flex;
     justify-content: center;
     margin-top: 5rem;
+}
+
+@media screen and (max-width: 992px) {
+    .technicCardContainerDiv {
+        flex-wrap: wrap;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .childFlex {
+        flex-wrap: wrap;
+    }
 }

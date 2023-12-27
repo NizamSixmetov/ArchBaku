@@ -10,6 +10,7 @@
   background: transparent;
   padding: 1rem 2.5em;
   cursor: pointer;
+  transition: .3s ease-in-out;
 }
 
 .transparentButton:hover {
@@ -32,6 +33,7 @@
   background: #B08968;
   padding: 1rem 2.5em;
   cursor: pointer;
+  transition: .3s ease-in-out;
 }
 
 .transparentButtonWhite:hover {
@@ -53,6 +55,7 @@
   background: #B08968;
   padding: 1rem 2.5em;
   cursor: pointer;
+  transition: .3s ease-in-out;
 }
 
 .brownButton:hover {
@@ -75,6 +78,7 @@
   padding: 1rem 2.5em;
   margin-top: 3rem;
   cursor: pointer;
+  transition: .3s ease-in-out;
 }
 
 .greenButton:hover {
@@ -82,4 +86,12 @@
   border-color: #B08968;
   transform: scale(1.1);
   transition-duration: 0.5s;
+}
+
+
+@media screen and (max-width: 768px) {
+  .transparentButton {
+    font-size: 1rem;
+    line-height: 1rem;
+  }
 }

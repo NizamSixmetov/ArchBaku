@@ -1,5 +1,6 @@
 .flexDiv {
     background-color: white;
+    transition: .3s ease-in-out;
 }
 
 .imgElement {
@@ -36,16 +37,17 @@
     line-height: normal;
     display: flex;
     align-items: center;
-    margin: 1.5rem 0 2rem 1.5rem;
+    padding: 1.5rem 0 2rem 1.5rem;
+    width: fit-content;
 }
 
 .flexDiv:hover {
     transform: scale(1.01);
     margin-top: -5px;
     border-bottom: 5px solid #016B38;
-    transition-duration: 0.5s;
 
-    .aElement {
+    & .aElement {
         color: #016B38;
+        transform: none;
     }
 }

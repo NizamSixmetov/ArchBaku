@@ -1,18 +1,17 @@
-.positionDiv{
+.positionDiv {}
 
-}
-
-.bgDiv{
+.bgDiv {
     position: relative;
     padding: 17rem 0;
 }
 
-.bgDiv img{
+.bgDiv img {
     width: 100%;
 }
 
-.contentDiv{
+.contentDiv {
     position: absolute;
     z-index: 1;
     top: 50px;
 }
+

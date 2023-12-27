@@ -1,13 +1,13 @@
 import { NavLink } from 'react-router-dom';
 import styles from './style.module.css';
-import {BiChevronRight} from 'react-icons/bi';
+import { BiChevronRight } from 'react-icons/bi';
 
 const HomeServiceComponent = ({ ServiceStyle, imgElement, h3Element, pElement, link, icon }) => {
     let universalService = '';
     switch (ServiceStyle) {
         case 'homeService':
             universalService = styles.universalServiceStyles
-            icon = <BiChevronRight/>
+            icon = <BiChevronRight />
             break;
     }
     return (

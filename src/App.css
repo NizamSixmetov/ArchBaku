@@ -13,18 +13,3 @@
 body {
     font-family: roboto;
 }
-
-.active {
-    color: #B08968 !important;
-    font-family: Roboto;
-    font-size: 1.125rem;
-    font-style: normal;
-    font-weight: 600;
-    line-height: normal;
-    border-bottom: 2px solid #B08968;
-    padding: 10px;
-}
-
-.inactive {
-    padding: 10px;
-}

@@ -1,6 +1,8 @@
 .flexDiv {
     display: flex;
+    flex-direction: row;
     margin-top: 2.5rem;
+    align-items: center;
 }
 
 .imageDiv {
@@ -9,9 +11,14 @@
     align-items: center;
     display: flex;
     justify-content: center;
-    padding: 0.2rem 0.6rem;
     border-radius: 4px;
     margin-right: 1.2rem;
+    width: 3rem;
+    height: 3rem;
+}
+
+.textDiv{
+    width: 100%;
 }
 
 .h3Element {
@@ -21,6 +28,7 @@
     font-style: normal;
     font-weight: 600;
     line-height: 2rem;
+    width: 100%;
 }
 
 .pElement {
@@ -31,3 +39,4 @@
     font-weight: 400;
     line-height: normal;
 }
+

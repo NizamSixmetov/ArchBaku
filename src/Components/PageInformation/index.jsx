@@ -1,6 +1,7 @@
 import { Link } from 'react-router-dom';
 import styles from './style.module.css';
 import { AiOutlineRight } from 'react-icons/ai';
+import BreadcrumbsPage from '../BreadcrumbsPage';
 
 const PageInformation = ({ pageStyle, icon, h2Element, firstP, twoP, borderDiv }) => {
     let universalClass = '';
@@ -12,7 +13,6 @@ const PageInformation = ({ pageStyle, icon, h2Element, firstP, twoP, borderDiv }
     }
     return (
         <div className={`${styles.bgDiv}`}>
-            <img src="../../../public/AboutPage/TopCapBg.svg" alt="" />
             <div className='container'>
                 <div className={`${styles.flexBox}`}>
                     <div className={`${styles.topDiv}`}>
@@ -22,9 +22,7 @@ const PageInformation = ({ pageStyle, icon, h2Element, firstP, twoP, borderDiv }
                         </h2>
                     </div>
                     <div className={`${styles.bottomDiv}`}>
-                        <Link className={`${styles.firstP}`}>{firstP}</Link>
-                        {icon}
-                        <Link className={`${styles.twoP}`}>{twoP}</Link>
+                        <BreadcrumbsPage />
                     </div>
                 </div>
             </div>

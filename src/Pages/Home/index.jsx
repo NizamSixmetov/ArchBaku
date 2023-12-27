@@ -11,21 +11,22 @@ import Empoyees from '../../Components/Employees';
 import ContactHome from '../../Components/ContactHome';
 import HomeMap from '../../Components/HomeMap';
 import Footer from '../../Components/Footer';
+
+
 const Home = () => {
     return (
         <div>
-            <Header/>
-            <Cap/>
-            {/* <Button buttonStyle={'brown'} text={'salam'} /> */}
-            <AboutUs/>
-            <HomeProjects/>
-            <HomeServices/>
-            <HomeTechnic/>
-            <HomeNews/>
-            <Empoyees/>
-            <ContactHome/>
-            <HomeMap/>
-            <Footer/>
+            <Header />
+            <Cap />
+            <AboutUs />
+            <HomeProjects />
+            <HomeServices />
+            <HomeTechnic />
+            <HomeNews />
+            <Empoyees />
+            <ContactHome />
+            <HomeMap />
+            <Footer />
         </div>
     )
 };

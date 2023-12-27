@@ -70,6 +70,30 @@
     margin-top: .2rem;
 }
 
+.imageDivFlex {
+    margin-top: 2.5rem;
+}
+
+.imageDivFlex {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.imageTop {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.imageBottom {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
 .rightDiv .imageDivFlex img {
     margin: 0.5rem 0.5rem 0 0;
 }
@@ -77,10 +101,6 @@
 .rightDiv .imageDivFlex img:hover {
     transform: scale(1.05);
     transition-duration: 0.4s;
-}
-
-.imageDivFlex {
-    margin-top: 2.5rem;
 }
 
 .bottomBorder {
@@ -103,7 +123,24 @@
     line-height: normal;
 }
 
-.socialFlexDiv{
+.socialFlexDiv {
     display: flex;
     flex-direction: row;
+}
+
+@media screen and (max-width: 992px) {
+    .flexDiv {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .centerDivFlex2 .linkRight {
+        padding-left: 6.5rem;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .centerDiv {
+        margin: 2rem 0;
+    }
 }

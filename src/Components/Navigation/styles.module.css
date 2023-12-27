@@ -1,11 +1,12 @@
 .child {
     align-items: center;
     color: rgba(0, 0, 0, 0.719);
-    margin-top: 10px;
+    margin: 10px 0;
 }
 
 .child a {
     color: rgb(0, 0, 0, 0.76);
+    transition: .3s ease-in-out;
 }
 
 .barsBtn {
@@ -14,12 +15,29 @@
     cursor: pointer;
 }
 
-.hoverLink:hover {
-    transform: scale(0.96);
-    color: #B08968;
-    transition-duration: 0.5s;
+.hoverLink {
+    transition: .3s ease-in-out;
 }
 
-.logo img:hover{
+.hoverLink:hover {
+    color: #B08968;
+}
+
+.logo>img {
+    transition: 0.3s ease-in-out;
+}
+
+.logo>img:hover {
     transform: scale(0.97);
+}
+
+.active {
+    color: #B08968;
+    font-family: Roboto;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    border-bottom: 2px solid #B08968;
+    padding: 10px 0;
 }
